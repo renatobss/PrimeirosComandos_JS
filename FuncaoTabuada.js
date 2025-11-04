@@ -10,3 +10,5 @@ console.log("Terceira alteração na função tabuada")
 
 let numero = 10
 console.log(numero)
+
+console.log("Alterando a master, para testar o git")
