@@ -7,3 +7,6 @@ console.log("Retorno da tabuada:");
 tabuada(10);
 console.log("Testando alteração no GIT.")
 console.log("Terceira alteração na função tabuada")
+
+let numero = 10
+console.log(numero)
