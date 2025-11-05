@@ -16,7 +16,7 @@ git status
 - como está o estado das nossas ramificações
 
  git diff
-- mostra o que foi alterado
+- mostra o que foi alterado em relação ao último commit
 - o que tem de alteração na ramificação
 
 git merge
