@@ -1,3 +1,15 @@
+// números pares
+
+for (let i = 1; i <= 100; i++){
+    let pegaPar
+    if (i % 2 == 0){
+        pegaPar = i
+        console.log(pegaPar)
+    }
+}
+
+
+//--------------------------------------------------------------
 let nomes = ["Renato", "Nina", "Milena"];
 
 for(let i = 0; i < nomes.length; i++){
