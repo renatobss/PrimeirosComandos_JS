@@ -26,15 +26,14 @@ for(let i = 1; i <= 10; i++){
 function Recursivo(i, limite){
     if (i >= limite){
         return;
-        console.log(i);
-
-        Recursivo(i + 1, limite);
-    }
+    }    
+    console.log(i);
+    Recursivo(i + 1, limite);
 }
 
 console.log("-------------------------------------------------");
 
-Recursivo(0, 5);
+Recursivo(100, 120);
 
 console.log("-------------------------------------------------");
 

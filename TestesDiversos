@@ -1,0 +1,16 @@
+let nome = 'bala'
+let textoInvertido = nome.split("").reverse().join("")
+
+console.log(textoInvertido)
+
+
+function Recursivo(i, limite){
+    if (i >= limite){
+        return
+    }
+    console.log(i)
+    Recursivo(i + 1, limite)
+}
+
+Recursivo(0, 5)
+
