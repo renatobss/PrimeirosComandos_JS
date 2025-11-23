@@ -1,12 +1,6 @@
-let palavra = "renato"
-const vogais = "aeiou"
-let contador = 0
+let numero = 5
+let p
 
-for (let i = 0; i <= palavra.length; i++){
-    console.log(palavra[i])
-    if (vogais.includes(palavra[i])){
-        contador ++
-    }
-}
+p = numero % 2 == 0
 
-console.log(contador)
+console.log(p)
